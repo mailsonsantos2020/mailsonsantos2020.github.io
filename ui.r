@@ -7,7 +7,8 @@ ui <- fluidPage(
             h2("My Static website"),
             h3("Internal link example"),
             a(h4("Birds"),
-              href = "birds"),
+             ## href = "birds"),
+			 href = "includeMarkdown("markdown/birds.Rmd")" ,  ##  path/to/birds.Rmd")" ,
             hr(),
             
             h3("External link example"),
