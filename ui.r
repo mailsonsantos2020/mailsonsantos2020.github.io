@@ -7,7 +7,7 @@ ui <- fluidPage(
             h2("My Static website"),
             h3("Internal link example"),
             a(h4("Birds"),
-              href = "#birds"),
+              href = "birds"),
             hr(),
             
             h3("External link example"),
