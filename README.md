@@ -1,5 +1,3 @@
 library(shiny)
 
-setwd("~/mailsonsantos2020.github.io")
-
-runApp()
+shiny::runGitHub('mailsonsantos2020.github.io', 'mailsonsantos2020')
