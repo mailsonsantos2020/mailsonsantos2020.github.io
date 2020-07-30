@@ -7,9 +7,9 @@ ui <- fluidPage(
             h2("My Static website"),
             h3("Internal link example"),
             a(h4("Birds"),
-			 href = "includeMarkdown("markdown/birds.Rmd")", 
+			 withMathJax(includeMarkdown('markdown/birds.Rmd'))),
             hr(),
-            
+			 
             h3("External link example"),
             a(h4("Wikipedia"),
               href = "https://en.wikipedia.org/wiki/Main_Page",
