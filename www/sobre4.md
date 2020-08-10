@@ -1,0 +1,1 @@
+Realizei projetos principalmente em Data Science e Deep Learning. Esses projetos incluem análise de dados, visualização de dados, modelagem / implantação de aprendizado de máquina, técnicas de aprendizado profundo, scripts em python, visualização de dados e engenharia de recursos. Também escrevo artigos técnicos no Medium na publicação Towards Data Science.
