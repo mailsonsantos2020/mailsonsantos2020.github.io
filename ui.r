@@ -185,23 +185,4 @@ ui <- fluidPage(
   
   )# end dashboardPage
 
-)  ##)
-
-# Define server logic required to draw a histogram
-server <- function(input, output) {
-    
-  
-  ## Download PDF
-  output$downloadData <- downloadHandler(
-    filename = "your-pdf-name.pdf",
-    content = function(file) {
-      file.copy("www/teste.pdf", file)
-    }
-  )
-
-  
-  
-}
-
-# Run the application 
-shinyApp(ui = ui, server = server)
+)  ##) ui 
